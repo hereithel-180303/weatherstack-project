@@ -1,0 +1,14 @@
+{"timestamp":"2025-07-19T03:07:04.745183","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-19T03:07:04.746124","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-19T03:07:04.776023Z","level":"info","event":"Fetching weather data from OpenWeatherMap API...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:04.976166Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:04.978771Z","level":"info","event":"{'coord': {'lon': -74.006, 'lat': 40.7143}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 21.83, 'feels_like': 21.64, 'temp_min': 21.83, 'temp_max': 21.83, 'pressure': 1019, 'humidity': 60, 'sea_level': 1019, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 2.73, 'deg': 76, 'gust': 3.99}, 'clouds': {'all': 5}, 'dt': 1752894126, 'sys': {'country': 'US', 'sunrise': 1752831606, 'sunset': 1752884642}, 'timezone': -14400, 'id': 5128581, 'name': 'New York', 'cod': 200}","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:05.718053Z","level":"info","event":"Fetching weather data from OpenWeatherMap API...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:05.933307Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:05.934099Z","level":"info","event":"Connecting to the PostgreSQL database...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:05.954592Z","level":"info","event":"Creating table if not exists...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:05.959500Z","level":"info","event":"Table was created.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:05.960417Z","level":"info","event":"Inserting weather data into the database (simple format)...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:05.973023Z","level":"info","event":"Data successfully inserted.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:05.974803Z","level":"info","event":"Database connection closed.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:07:05.973926","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

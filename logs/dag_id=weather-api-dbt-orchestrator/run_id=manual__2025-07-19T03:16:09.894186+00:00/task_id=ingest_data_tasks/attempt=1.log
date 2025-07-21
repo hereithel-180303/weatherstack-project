@@ -1,0 +1,75 @@
+{"timestamp":"2025-07-19T03:16:10.516796","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-19T03:16:10.517942","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-19T03:16:10.542814Z","level":"info","event":"Fetching weather data from OpenWeatherMap API for Asian cities...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:10.543512Z","level":"info","event":"Fetching weather data for Manila,PH...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:10.756963Z","level":"info","event":"✓ Data received for Manila, PH","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:10.757373Z","level":"info","event":"Fetching weather data for Tokyo,JP...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:10.919056Z","level":"info","event":"✓ Data received for Tokyo, JP","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:10.920203Z","level":"info","event":"Fetching weather data for Seoul,KR...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.140055Z","level":"info","event":"✓ Data received for Seoul, KR","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.140498Z","level":"info","event":"Fetching weather data for Bangkok,TH...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.315818Z","level":"info","event":"✓ Data received for Bangkok, TH","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.317029Z","level":"info","event":"Fetching weather data for Singapore,SG...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.473969Z","level":"info","event":"✓ Data received for Singapore, SG","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.474550Z","level":"info","event":"Fetching weather data for Kuala Lumpur,MY...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.627797Z","level":"info","event":"✓ Data received for Kuala Lumpur, MY","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.628241Z","level":"info","event":"Fetching weather data for Jakarta,ID...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.847986Z","level":"info","event":"✓ Data received for Jakarta, ID","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:11.848755Z","level":"info","event":"Fetching weather data for Mumbai,IN...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.011354Z","level":"info","event":"✓ Data received for Mumbai, IN","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.013452Z","level":"info","event":"Fetching weather data for Beijing,CN...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.226677Z","level":"info","event":"✓ Data received for Beijing, CN","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.228542Z","level":"info","event":"Fetching weather data for Taipei,TW...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.444069Z","level":"info","event":"✓ Data received for Taipei, TW","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.447002Z","level":"info","event":"Fetching weather data for Ho Chi Minh City,VN...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.669935Z","level":"info","event":"✓ Data received for Ho Chi Minh City, VN","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.670640Z","level":"info","event":"Fetching weather data for Dhaka,BD...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.826632Z","level":"info","event":"✓ Data received for Dhaka, BD","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.827009Z","level":"info","event":"API response received successfully - 12 cities","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.827603Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.827966Z","level":"info","event":"Fetched weather data for 12 Asian cities:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.828765Z","level":"info","event":"- Manila, PH: 27.56°C, light rain","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.829172Z","level":"info","event":"- Tokyo, JP: 31.1°C, overcast clouds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.831549Z","level":"info","event":"- Seoul, KR: 24.85°C, light rain","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.832719Z","level":"info","event":"- Bangkok, TH: 32.4°C, broken clouds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.834783Z","level":"info","event":"- Singapore, SG: 30.59°C, overcast clouds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.835999Z","level":"info","event":"- Kuala Lumpur, MY: 30.88°C, overcast clouds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.837167Z","level":"info","event":"- Jakarta, ID: 31.5°C, scattered clouds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.837968Z","level":"info","event":"- Mumbai, IN: 27.54°C, overcast clouds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.840050Z","level":"info","event":"- Beijing, CN: 31.6°C, overcast clouds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.842129Z","level":"info","event":"- Taipei, TW: 30.62°C, light rain","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.842518Z","level":"info","event":"- Ho Chi Minh City, VN: 31.88°C, overcast clouds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.844163Z","level":"info","event":"- Dhaka, BD: 30.84°C, overcast clouds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.889856Z","level":"info","event":"Fetching weather data from OpenWeatherMap API for Asian cities...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:12.895972Z","level":"info","event":"Fetching weather data for Manila,PH...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.070373Z","level":"info","event":"✓ Data received for Manila, PH","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.072261Z","level":"info","event":"Fetching weather data for Tokyo,JP...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.301942Z","level":"info","event":"✓ Data received for Tokyo, JP","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.309210Z","level":"info","event":"Fetching weather data for Seoul,KR...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.468976Z","level":"info","event":"✓ Data received for Seoul, KR","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.476311Z","level":"info","event":"Fetching weather data for Bangkok,TH...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.699615Z","level":"info","event":"✓ Data received for Bangkok, TH","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.709292Z","level":"info","event":"Fetching weather data for Singapore,SG...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.871140Z","level":"info","event":"✓ Data received for Singapore, SG","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:13.876486Z","level":"info","event":"Fetching weather data for Kuala Lumpur,MY...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:14.113340Z","level":"info","event":"✓ Data received for Kuala Lumpur, MY","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:14.116840Z","level":"info","event":"Fetching weather data for Jakarta,ID...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:14.357496Z","level":"info","event":"✓ Data received for Jakarta, ID","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:14.360790Z","level":"info","event":"Fetching weather data for Mumbai,IN...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:14.560464Z","level":"info","event":"✓ Data received for Mumbai, IN","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:14.568638Z","level":"info","event":"Fetching weather data for Beijing,CN...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:14.810451Z","level":"info","event":"✓ Data received for Beijing, CN","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:14.813052Z","level":"info","event":"Fetching weather data for Taipei,TW...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.041619Z","level":"info","event":"✓ Data received for Taipei, TW","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.047147Z","level":"info","event":"Fetching weather data for Ho Chi Minh City,VN...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.298356Z","level":"info","event":"✓ Data received for Ho Chi Minh City, VN","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.300426Z","level":"info","event":"Fetching weather data for Dhaka,BD...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.527717Z","level":"info","event":"✓ Data received for Dhaka, BD","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.531688Z","level":"info","event":"API response received successfully - 12 cities","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.623279Z","level":"info","event":"Connecting to the PostgreSQL database...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.638908Z","level":"info","event":"Creating table if not exists...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.641096Z","level":"info","event":"Table was created.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.647669Z","level":"info","event":"Inserting weather data into the database (simple format)...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.652414Z","level":"info","event":"An error occurred during execution: list indices must be integers or slices, not str","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.660453Z","level":"info","event":"Database connection closed.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-19T03:16:15.585553","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

@@ -1,0 +1,885 @@
+{"timestamp":"2025-07-17T08:03:13.892905","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:03:13.917235Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:03:14.613361Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:03:14.614035","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:03:45.227757","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:03:45.259499Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:03:46.147527Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:03:46.147773","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:04:16.656203","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:04:16.673139Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:04:17.377943Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:04:17.378110","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:04:48.056045","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:04:48.098812Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:04:48.817882Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:04:48.819803","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:05:19.451570","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:05:19.466064Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:05:20.149869Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:05:20.151230","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:05:50.698144","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:05:50.707570Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:05:51.323925Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:05:51.325323","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:06:21.877542","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:06:21.893294Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:06:22.510582Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:06:22.510796","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:06:53.035576","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:06:53.055447Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:06:53.743403Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:06:53.743660","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:07:24.404901","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:07:24.418426Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:07:25.032005Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:07:25.032192","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:07:55.176629","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:07:55.200062Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:07:56.115904Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:07:56.131356","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:08:27.046522","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:08:27.091818Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:08:27.746754Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:08:27.746039","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"ImportError","exc_value":"cannot import name 'mock_fetch_data' from 'api_request' (/opt/airflow/api_request/api_request.py)","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":8,"name":"<module>"},{"filename":"/opt/airflow/api_request/insert_records.py","lineno":2,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:08:58.567363","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:08:58.584676Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:08:59.287659Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:09:29.886178","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:09:29.901054Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:09:30.517185Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:10:01.406544","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:10:01.435141Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:10:02.056006Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:10:32.640791","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:10:32.654353Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:10:33.287939Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:11:04.044062","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:11:04.076046Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:11:04.685316Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:11:35.086863","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:11:35.111517Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:11:35.747440Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:12:06.454332","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:12:06.494811Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:12:07.195593Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:12:37.790948","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:12:37.802902Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:12:38.522665Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:13:09.163553","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:13:09.181154Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:13:09.857021Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:13:40.460429","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:13:40.481702Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:13:41.089308Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:14:11.664910","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:14:11.676536Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:14:12.321257Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:14:42.973715","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:14:42.985654Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:14:43.602800Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:15:14.224940","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:15:14.238616Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:15:14.888390Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:15:45.469249","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:15:45.485726Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:15:46.223437Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:16:16.979100","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:16:17.001641Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:16:17.660530Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:16:48.288223","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:16:48.311247Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:16:48.995962Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:17:10.517629","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:17:10.538102Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:17:11.217028Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:17:11.224011","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"NameError","exc_value":"name 'BashOperator' is not defined","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":29,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:17:18.381661","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:17:18.397065Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:17:19.018214Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:17:19.026972","level":"error","event":"Failed to import: /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag","error_detail":[{"exc_type":"NameError","exc_value":"name 'BashOperator' is not defined","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":394,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/orchestrator.py","lineno":29,"name":"<module>"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-17T08:17:38.519260","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:17:38.537441Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:17:39.176155Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:17:58.724875","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:17:58.768699Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:17:59.448420Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:18:07.952880","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:18:08.075096Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:18:08.775586Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:18:18.309055","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:18:18.344067Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:18:19.009858Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:18:40.457468","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:18:40.471126Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:18:41.127026Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:18:43.271248","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:18:43.293529Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:18:43.993616Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:19:14.703234","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:19:14.738051Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:19:15.362763Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:19:43.981798","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:19:44.011768Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:19:44.617981Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:20:15.287577","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:20:15.311263Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:20:15.950667Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:20:46.430590","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:20:46.472150Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:20:47.197318Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:21:17.646878","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:21:17.662169Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:21:18.312850Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:21:48.810181","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:21:48.828077Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:21:49.545907Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:22:20.088383","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:22:20.107806Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:22:20.778336Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:22:51.360892","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:22:51.381195Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:22:52.000963Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:23:22.577678","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:23:22.596578Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:23:23.241318Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:23:53.781238","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:23:53.807470Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:23:54.474481Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:24:24.905442","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:24:24.927757Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:24:25.605019Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:24:56.080980","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:24:56.099639Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:24:56.529260Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:25:27.005525","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:25:27.027761Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:25:27.660595Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:25:58.102421","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:25:58.118944Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:25:58.787626Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:26:29.226751","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:26:29.247941Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:26:29.918500Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:27:00.465088","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:27:00.489315Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:27:01.153379Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:27:31.701909","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:27:31.747105Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:27:32.491112Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:28:02.996955","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:28:03.012251Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:28:03.717675Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:28:34.235841","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:28:34.254465Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:28:34.947082Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:29:05.443608","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:29:05.473216Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:29:06.184661Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:29:36.648109","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:29:36.677642Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:29:37.312700Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:30:07.774605","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:30:07.795278Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:30:08.414967Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:30:38.966588","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:30:39.005951Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:30:39.694879Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:31:10.199065","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:31:10.209106Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:31:10.898870Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:31:41.300745","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:31:41.322420Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:31:42.036542Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:32:12.405366","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:32:12.430833Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:32:13.066477Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:32:43.486973","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:32:43.505198Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:32:44.193921Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:33:14.614459","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:33:14.631324Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:33:15.323526Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:33:45.721667","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:33:45.743252Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:33:46.350882Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:34:16.817376","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:34:16.838618Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:34:17.482647Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:34:47.934658","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:34:47.953642Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:34:48.581361Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:35:18.996296","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:35:19.015932Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:35:19.743451Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:35:50.145858","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:35:50.165944Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:35:50.873453Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:36:21.251007","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:36:21.270997Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:36:22.102833Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:36:52.522751","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:36:52.537019Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:36:53.550345Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:37:23.957055","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:37:23.980043Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:37:24.600161Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:37:55.087235","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:37:55.106181Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:37:55.806321Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:38:26.310316","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:38:26.395658Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:38:27.119325Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:38:57.733879","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:38:57.757457Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:38:58.442333Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:39:28.924644","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:39:28.972828Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:39:31.734257Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:40:02.396172","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:40:02.422194Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:40:03.182944Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:40:33.982868","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:40:34.019327Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:40:34.720864Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:41:05.450412","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:41:05.514222Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:41:07.422607Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:41:38.198202","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:41:38.222346Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:41:38.933349Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:42:09.496833","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:42:09.515149Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:42:10.264665Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:42:40.779683","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:42:40.801260Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:42:45.497374Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:43:15.932329","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:43:15.949671Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:43:16.617825Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:43:47.082246","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:43:47.097342Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:43:47.747793Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:44:18.262958","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:44:18.293620Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:44:22.444437Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:44:53.103756","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:44:53.147709Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:44:53.831446Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:45:24.739218","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:45:24.805473Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:45:25.542105Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:45:56.231920","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:45:56.274968Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:45:56.975847Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:46:27.880645","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:46:27.895691Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:46:28.514785Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:46:59.153829","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:46:59.186182Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:46:59.958028Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:47:30.395595","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:47:30.410709Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:47:31.189513Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:48:01.664493","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:48:01.680318Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:48:02.315409Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:48:32.787079","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:48:32.825548Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:48:33.448524Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:49:03.895369","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:49:03.912741Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:49:04.576767Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:49:35.014618","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:49:35.031991Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:49:35.701567Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:50:06.208460","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:50:06.226549Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:50:06.639042Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:50:37.108829","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:50:37.126920Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:50:37.758038Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:51:08.547317","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:51:08.599254Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:51:09.303270Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:51:39.638544","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:51:39.657194Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:51:40.314845Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:52:10.745072","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:52:10.767187Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:52:11.516185Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:52:41.936499","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:52:41.948303Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:52:42.682649Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:53:13.059648","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:53:13.082931Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:53:13.716550Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:53:44.099137","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:53:44.116380Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:53:44.736229Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:54:15.111799","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:54:15.130529Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:54:15.763640Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:54:46.122075","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:54:46.142967Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:54:46.783777Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:55:17.204245","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:55:17.226265Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:55:17.919172Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:55:48.317146","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:55:48.344321Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:55:49.048748Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:56:19.459114","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:56:19.476456Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:56:20.177681Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:56:50.552336","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:56:50.572202Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:56:51.205028Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:57:21.563825","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:57:21.578192Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:57:22.334291Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:57:52.757684","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:57:52.771828Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:57:53.361955Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:58:23.740897","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:58:23.766531Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:58:24.387660Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:58:54.738491","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:58:54.754445Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:58:55.416736Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:59:25.772999","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:59:25.791641Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:59:26.441226Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:59:56.819018","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T08:59:56.846151Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T08:59:57.470168Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:00:27.880155","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:00:27.901121Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:00:28.600090Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:00:58.986105","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:00:59.010703Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:00:59.729209Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:01:30.116843","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:01:30.146586Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:01:30.857424Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:02:01.234764","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:02:01.248787Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:02:01.883809Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:02:32.275041","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:02:32.292927Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:02:33.014341Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:03:03.381857","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:03:03.397904Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:03:04.041174Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:03:34.443298","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:03:34.456466Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:03:35.170383Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:04:05.549471","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:04:05.566618Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:04:06.196868Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:04:36.547953","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:04:36.563988Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:04:37.224178Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:05:07.639190","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:05:07.650290Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:05:08.353917Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:05:38.794429","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:05:38.811556Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:05:39.434292Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:06:09.849787","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:06:09.870088Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:06:10.613756Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:06:40.999206","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:06:41.017667Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:06:41.747640Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:07:12.146759","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:07:12.168597Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:07:12.878220Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:07:43.264420","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:07:43.281214Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:07:44.004544Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:08:14.386937","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:08:14.403550Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:08:15.128142Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:08:45.541851","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:08:45.566999Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:08:46.268790Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:09:16.665264","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:09:16.680606Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:09:17.389564Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:09:47.755120","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:09:47.775065Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:09:48.417804Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:10:18.807960","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:10:18.822597Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:10:19.544312Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:10:49.932964","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:10:49.948798Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:10:50.533932Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:11:20.890467","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:11:20.907425Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:11:21.600629Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:11:51.980843","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:11:51.999111Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:11:52.603388Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:12:22.979289","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:12:22.999878Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:12:23.654926Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:12:54.026197","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:12:54.048214Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:12:54.785024Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:13:25.140376","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:13:25.159203Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:13:25.812324Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:13:56.206104","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:13:56.231441Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:13:56.838646Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:14:27.223011","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:14:27.243772Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:14:27.855120Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:14:58.215716","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:14:58.229973Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:14:58.893350Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:15:29.274853","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:15:29.290362Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:15:29.926552Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:16:00.356733","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:16:00.376023Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:16:01.049905Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:16:31.445436","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:16:31.473278Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:16:32.179247Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:17:02.572468","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:17:02.591346Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:17:03.309808Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:17:33.707261","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:17:33.724667Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:17:34.440536Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:18:04.821260","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:18:04.835553Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:18:05.465852Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:18:35.854824","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:18:35.880358Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:18:36.492796Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:19:06.855136","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:19:06.878704Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:19:07.522577Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:19:37.898005","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:19:37.912762Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:19:38.648401Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:20:09.032200","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:20:09.047288Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:20:09.677280Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:20:40.047578","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:20:40.063421Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:20:40.686632Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:21:11.100216","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:21:11.117849Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:21:11.840835Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:21:42.214447","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:21:42.231548Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:21:42.963213Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:22:13.347378","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:22:13.373377Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:22:13.991144Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:22:44.358655","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:22:44.384200Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:22:45.005083Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:23:15.383671","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:23:15.401606Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:23:16.149374Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:23:46.573052","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:23:46.591078Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:23:47.278321Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:24:17.654289","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:24:17.668764Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:24:18.305902Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:24:48.703877","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:24:48.726248Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:24:49.333680Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:25:19.767357","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:25:19.786617Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:25:20.466041Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:25:50.858523","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:25:50.876383Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:25:51.588299Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:26:22.005445","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:26:22.019738Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:26:22.722212Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:26:53.106593","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:26:53.121358Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:26:53.764746Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:27:24.172572","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:27:24.185648Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:27:24.887197Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:27:55.257129","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:27:55.269879Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:27:55.909030Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:28:26.320724","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:28:26.349437Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:28:27.009022Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:28:57.394310","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:28:57.411640Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:28:58.066483Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:29:28.439001","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:29:28.457731Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:29:29.202794Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:29:59.614626","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:29:59.637871Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:30:00.326805Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:30:30.738963","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:30:30.751569Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:30:31.461704Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:31:01.861256","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:31:01.882932Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:31:02.584545Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:31:32.991465","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:31:33.017111Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:31:33.717641Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:32:04.097159","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:32:04.112575Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:32:04.742992Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:32:35.109811","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:32:35.130093Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:32:35.770455Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:33:06.138765","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:33:06.154544Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:33:06.798924Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:33:37.185216","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:33:37.200517Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:33:37.927896Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:34:08.300969","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:34:08.319121Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:34:08.954762Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:34:39.356759","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:34:39.382625Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:34:40.086587Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:35:10.459632","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:35:10.474929Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:35:11.114590Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:35:41.506524","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:35:41.527981Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:35:41.933758Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:36:12.301480","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:36:12.319590Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:36:12.960635Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:36:43.333998","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:36:43.348535Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:36:43.988602Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:37:14.414362","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:37:14.436779Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:37:15.075389Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:37:45.451050","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:37:45.466183Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:37:46.096147Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:38:16.507246","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:38:16.524052Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:38:17.174786Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:38:47.603609","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:38:47.620354Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:38:48.409771Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:39:18.790927","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:39:18.806107Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:39:19.537622Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:39:49.901829","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:39:49.917677Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:39:50.564047Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:40:20.961912","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:40:20.976556Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:40:21.691419Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:40:52.096465","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:40:52.109172Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:40:52.724451Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:41:23.114563","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:41:23.129794Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:41:23.848719Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:41:54.250488","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:41:54.265258Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:41:55.590916Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:42:26.008040","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:42:26.020532Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:42:26.727376Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:42:57.118480","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:42:57.144852Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:42:57.847601Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:43:28.292485","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:43:28.318512Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:43:28.984222Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:43:59.388273","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:43:59.405498Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:44:00.106529Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:44:30.502804","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:44:30.519120Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:44:31.123041Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:45:01.518634","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:45:01.533819Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:45:02.287251Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:45:32.966225","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:45:33.006385Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:45:33.643978Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:46:04.265198","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:46:04.282878Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:46:05.177850Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:46:35.641857","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:46:35.672076Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:46:36.377184Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:47:06.780674","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:47:06.793867Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:47:07.405587Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:47:37.841453","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:47:37.856136Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:47:38.446848Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:48:08.806580","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:48:08.834017Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:48:09.460516Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:48:39.838277","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:48:39.859140Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:48:40.464752Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:49:10.833562","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:49:10.851579Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:49:11.486624Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:49:41.882640","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:49:41.898629Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:49:42.507433Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:50:12.910388","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:50:12.928281Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:50:13.779857Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:50:44.187329","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:50:44.205505Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:50:44.910505Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:51:15.311083","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:51:15.331960Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:51:16.033318Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:51:46.422902","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:51:46.439062Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:51:47.165484Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:52:17.587793","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:52:17.599823Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:52:18.292946Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:52:48.700002","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:52:48.710958Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:52:49.320978Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:53:19.717593","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:53:19.736440Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:53:20.450156Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:53:50.861317","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:53:50.877100Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:53:51.477280Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:54:21.855907","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:54:21.869578Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:54:22.606642Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:54:52.970771","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:54:52.984427Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:54:53.634655Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:55:24.035376","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:55:24.050276Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:55:24.651939Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:55:55.046630","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:55:55.070659Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:55:55.690150Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:56:26.064508","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:56:26.078051Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:56:26.699435Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:56:57.100641","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:56:57.118391Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:56:57.794338Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:57:28.173829","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:57:28.195578Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:57:28.872532Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:57:59.258302","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:57:59.274529Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:58:00.000482Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:58:30.397410","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:58:30.421662Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:58:31.130095Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:59:01.511024","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:59:01.529260Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:59:02.258125Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:59:32.646701","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T09:59:32.663284Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T09:59:33.387024Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:00:03.763490","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:00:03.782306Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:00:04.414159Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:00:34.823216","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:00:34.841928Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:00:35.542791Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:01:05.946331","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:01:05.967774Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:01:06.674039Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:01:37.049457","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:01:37.066823Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:01:37.698115Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:02:08.080935","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:02:08.099768Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:02:08.826313Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:02:39.252434","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:02:39.264420Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:02:39.956864Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:03:10.338232","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:03:10.352540Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:03:10.981829Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:03:41.364066","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:03:41.378335Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:03:42.009777Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:04:12.409120","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:04:12.427693Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:04:13.035333Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:04:43.427499","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:04:43.442226Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:04:44.164397Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:05:14.562491","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:05:14.584036Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:05:15.300987Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:05:45.704046","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:05:45.729789Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:05:46.423024Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:06:16.800840","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:06:16.815908Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:06:17.857256Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:06:48.236166","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:06:48.251011Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:06:48.885932Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:07:19.273817","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:07:19.287568Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:07:20.014509Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:07:50.428680","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:07:50.442899Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:07:51.145629Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:08:21.534348","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:08:21.555483Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:08:22.172827Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:08:52.551878","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:08:52.567732Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:08:53.199838Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:09:23.586119","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:09:23.606120Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:09:24.327018Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:09:54.709360","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:09:54.725540Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:09:55.563573Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:10:25.933739","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:10:25.955355Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:10:26.587844Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:10:56.988149","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:10:57.006174Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:10:57.714965Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:11:28.113977","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:11:28.140740Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:11:28.844595Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:11:59.227576","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:11:59.251007Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:12:00.076349Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:12:30.465941","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:12:30.481217Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:12:31.104797Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:13:01.507633","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:13:01.528866Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:13:01.925373Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:13:32.319906","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:13:32.329982Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:13:32.952372Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:14:03.346451","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:14:03.363348Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:14:04.091221Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:14:34.468809","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:14:34.482621Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:14:35.156312Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:15:05.568078","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:15:05.586317Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:15:06.648356Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:15:37.024573","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:15:37.038666Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:15:37.675216Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:16:08.093965","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:16:08.109738Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:16:08.805391Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:16:39.183622","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:16:39.200732Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:16:39.628400Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:17:10.008717","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:17:10.029227Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:17:10.654514Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:17:41.020580","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:17:41.035385Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:17:41.622502Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:18:11.999059","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:18:12.018711Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:18:12.400505Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:18:42.772194","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:18:42.793066Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:18:43.537618Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:19:13.906288","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:19:13.922864Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:19:14.670869Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:19:45.047507","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:19:45.063926Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:19:45.687313Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:20:16.177074","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:20:16.232679Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:20:16.882819Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:20:47.365766","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:20:47.378694Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:20:48.048893Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:21:18.412576","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:21:18.430359Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:21:19.034756Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:21:49.403947","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:21:49.419699Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:21:50.102381Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:22:20.479928","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:22:20.497571Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:22:21.102114Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:22:51.478355","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:22:51.495468Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:22:52.157747Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:23:22.566012","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:23:22.585110Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:23:23.492619Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:23:53.918005","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:23:53.930742Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:23:54.630320Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:24:25.042655","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:24:25.057452Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:24:25.757286Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:24:56.155335","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:24:56.169768Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:24:56.775798Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:25:27.162405","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:25:27.179465Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:25:28.533400Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:25:58.901281","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:25:58.916824Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:25:59.663474Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:26:30.059363","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:26:30.076097Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:26:30.790700Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:27:01.181808","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:27:01.196070Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:27:01.922416Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:27:32.324126","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:27:32.339576Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:27:33.039943Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:28:03.437849","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:28:03.447718Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:28:04.169385Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:28:34.559002","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:28:34.571173Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:28:35.300997Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:29:05.698340","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:29:05.719279Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:29:06.427664Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:29:36.811166","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:29:36.824303Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:29:37.455187Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:30:07.960419","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:30:07.987071Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:30:08.688504Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:30:39.645013","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:30:39.674620Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:30:40.433338Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:31:11.293612","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:31:11.368129Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:31:12.385529Z","level":"info","event":"API response received successfully","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-07-17T10:31:43.479512","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T10:31:43.613576Z","level":"info","event":"Fetching weather data from weatherstack API...","chan":"stdout","logger":"processor"}

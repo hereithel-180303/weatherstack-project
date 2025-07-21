@@ -1,0 +1,9 @@
+{"timestamp":"2025-07-17T05:39:04.081799","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-17T05:39:04.082516","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestration.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T05:39:04.132430Z","level":"info","event":"Connecting to the PostgreSQL database...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:39:04.150877Z","level":"info","event":"Creating table if not exists...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:39:04.155079Z","level":"info","event":"Table was created.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:39:04.155504Z","level":"info","event":"Inserting weather data into the database...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:39:04.162283Z","level":"info","event":"Data successfully inserted.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:39:04.162903Z","level":"info","event":"Database connection close.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:39:04.162920","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

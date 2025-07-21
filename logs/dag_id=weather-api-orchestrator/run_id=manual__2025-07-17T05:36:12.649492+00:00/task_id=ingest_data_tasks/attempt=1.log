@@ -1,0 +1,14 @@
+{"timestamp":"2025-07-17T05:36:17.149981","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-17T05:36:17.151623","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestration.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-17T05:36:17.994362Z","level":"info","event":"Connecting to the PostgreSQL database...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:17.997984Z","level":"info","event":"Database connection failed: connection to server at \"localhost\" (::1), port 5432 failed: Connection refused","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:17.999401Z","level":"info","event":"\tIs the server running on that host and accepting TCP/IP connections?","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:18.003339Z","level":"info","event":"connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:18.004331Z","level":"info","event":"\tIs the server running on that host and accepting TCP/IP connections?","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:18.004932Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:18.006164Z","level":"info","event":"An error occured during execution connection to server at \"localhost\" (::1), port 5432 failed: Connection refused","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:18.007352Z","level":"info","event":"\tIs the server running on that host and accepting TCP/IP connections?","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:18.009066Z","level":"info","event":"connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:18.011246Z","level":"info","event":"\tIs the server running on that host and accepting TCP/IP connections?","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:18.013105Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-17T05:36:17.996730","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

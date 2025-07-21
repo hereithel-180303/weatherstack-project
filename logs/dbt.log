@@ -1,0 +1,86 @@
+[0m14:08:52.550648 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x777dc72d52b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x777dc6417d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x777dc6417890>]}
+
+
+============================== 14:08:52.554845 | e6bb5c0a-d8a1-4e49-825e-9a21665bed3a ==============================
+[0m14:08:52.554845 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:08:52.555745 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/home/hereithel/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:08:52.567367 [info ] [MainThread]: Creating dbt configuration folder at /home/hereithel/.dbt
+[0m14:10:54.832761 [debug] [MainThread]: Starter project path: /home/hereithel/anaconda3/envs/pyspark-project/lib/python3.13/site-packages/dbt/include/starter_project
+[0m14:10:54.845954 [info ] [MainThread]: 
+Your new dbt project "dbt_weatherstack" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:10:54.847511 [info ] [MainThread]: Setting up your profile.
+[0m14:11:45.188094 [info ] [MainThread]: Profile dbt_weatherstack written to /home/hereithel/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:11:45.190927 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 172.72339, "process_in_blocks": "43512", "process_kernel_time": 0.212506, "process_mem_max_rss": "107300", "process_out_blocks": "88", "process_user_time": 1.796449}
+[0m14:11:45.192086 [debug] [MainThread]: Command `dbt init` succeeded at 14:11:45.191898 after 172.72 seconds
+[0m14:11:45.192996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x777dc61c5480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x777dc61c1490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x777dc7e5c5a0>]}
+[0m14:11:45.194119 [debug] [MainThread]: Flushing usage events
+[0m14:11:46.321712 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:17:24.628823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bec47da52b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bec46ee7d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bec46ee7890>]}
+
+
+============================== 14:17:24.632646 | bd8df60a-f6e5-49e9-8f09-486de0db0416 ==============================
+[0m14:17:24.632646 [info ] [MainThread]: Running with dbt=1.10.4
+[0m14:17:24.633487 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hereithel/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m14:17:24.634154 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/hereithel/Documents/GitHub/weatherstack-project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:17:24.635399 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.09259211, "process_in_blocks": "0", "process_kernel_time": 0.181825, "process_mem_max_rss": "104792", "process_out_blocks": "24", "process_user_time": 1.811258}
+[0m14:17:24.636076 [debug] [MainThread]: Command `dbt run` failed at 14:17:24.635906 after 0.09 seconds
+[0m14:17:24.636549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bec46d2dba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bec46ff6450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bec46d9c490>]}
+[0m14:17:24.637033 [debug] [MainThread]: Flushing usage events
+[0m14:17:25.928146 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:53:06.448715 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe2711b9430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe2725675f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe271c24ec0>]}
+
+
+============================== 06:53:06.459113 | 6e282529-e81c-48f6-ac8a-1f3150c84f11 ==============================
+[0m06:53:06.459113 [info ] [MainThread]: Running with dbt=1.10.4
+[0m06:53:06.461300 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/opt/airflow/dbt_weatherstack/config/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m06:53:06.535840 [info ] [MainThread]: dbt version: 1.10.4
+[0m06:53:06.537268 [info ] [MainThread]: python version: 3.12.11
+[0m06:53:06.539341 [info ] [MainThread]: python path: /home/airflow/.local/bin/python
+[0m06:53:06.541351 [info ] [MainThread]: os info: Linux-6.10.14-linuxkit-x86_64-with-glibc2.36
+[0m06:53:06.543604 [info ] [MainThread]: Using profiles dir at /opt/airflow/dbt_weatherstack/config/.dbt
+[0m06:53:06.546116 [info ] [MainThread]: Using profiles.yml file at /opt/airflow/dbt_weatherstack/config/.dbt/profiles.yml
+[0m06:53:06.548033 [info ] [MainThread]: Using dbt_project.yml file at /opt/airflow/dbt_project.yml
+[0m06:53:06.549603 [info ] [MainThread]: Configuration:
+[0m06:53:06.551284 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m06:53:06.552830 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m06:53:06.554431 [info ] [MainThread]: Required dependencies:
+[0m06:53:06.555776 [debug] [MainThread]: Executing "git --help"
+[0m06:53:06.563100 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m06:53:06.564530 [debug] [MainThread]: STDERR: "b''"
+[0m06:53:06.566133 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m06:53:06.567904 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m06:53:06.569709 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m06:53:06.571569 [info ] [MainThread]: dbt looked for a profiles.yml file in /opt/airflow/dbt_weatherstack/config/.dbt/profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m06:53:06.573894 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </opt/airflow/dbt_project.yml> not found
+
+[0m06:53:06.577610 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.21176669, "process_in_blocks": "0", "process_kernel_time": 0.284093, "process_mem_max_rss": "108572", "process_out_blocks": "1914", "process_user_time": 3.594009}
+[0m06:53:06.580460 [debug] [MainThread]: Command `dbt debug` failed at 06:53:06.580005 after 0.22 seconds
+[0m06:53:06.582780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe2716b1bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe27134b3e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe271af74a0>]}
+[0m06:53:06.584567 [debug] [MainThread]: Flushing usage events
+[0m06:53:08.014521 [debug] [MainThread]: An error was encountered while trying to flush usage events
